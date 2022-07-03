@@ -9,7 +9,7 @@ kolom = int(input("Jumlah kolom: ")) # input jumlah kolom
 elemen = baris * kolom # Jumlah elemen
 for i in range(0, elemen): 
     print("Angka", i+1, ":")
-    angka = (input())
+    angka = int(input())
     array.append(angka) # Menambahkan elemen ke array
 
 array = np.array(array) # Membuat array numpy dari list array
